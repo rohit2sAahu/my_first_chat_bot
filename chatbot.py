@@ -1,5 +1,5 @@
 import requests as requests
-url="https://api.telegram.org/bot1220208257:AAHXaiKfmRmEcXSlu--7ipx-f_oALkQP97Y/"
+url="https://api.telegram.org/bot"TOKEN_KEY/"
 def chat_id(update):
     chat_id=update["message"]["chat"]["id"]
     return chat_id
